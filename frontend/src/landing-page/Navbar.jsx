@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav
@@ -26,29 +28,49 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-lg-0 px-5">
             <li class="nav-item">
-              <a class="nav-link active mx-3" aria-current="page" href="#">
+              <Link
+                class="nav-link active mx-3"
+                aria-current="page"
+                to="/signup"
+              >
                 Signup
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link active mx-3" aria-current="page" href="#">
+              <Link
+                class="nav-link active mx-3"
+                aria-current="page"
+                to="/about"
+              >
                 About
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link active mx-3" aria-current="page" href="#">
+              <Link
+                class="nav-link active mx-3"
+                aria-current="page"
+                to="/products"
+              >
                 Products
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link active mx-3" aria-current="page" href="#">
+              <Link
+                class="nav-link active mx-3"
+                aria-current="page"
+                to="/pricing"
+              >
                 Pricing
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link active mx-3" aria-current="page" href="#">
+              <Link
+                class="nav-link active mx-3"
+                aria-current="page"
+                to="/support"
+              >
                 Support
-              </a>
+              </Link>
             </li>
           </ul>
           <form class="d-flex" role="search"></form>
