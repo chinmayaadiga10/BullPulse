@@ -7,13 +7,13 @@ const Navbar = () => {
       style={{ backgroundColor: "#fff" }}
     >
       <div class="container p-2">
-        <a class="navbar-brand" href="#">
+        <Link class="navbar-brand" to="/">
           <img
             src="media/images/logo.svg"
             alt="zerodha logo"
             className="w-25"
           />
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
