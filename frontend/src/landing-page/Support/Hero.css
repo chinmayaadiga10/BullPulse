@@ -1,0 +1,11 @@
+#support-search {
+  border: none;
+  height: 4rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+}
+
+#support-search:focus {
+  outline: none;
+}

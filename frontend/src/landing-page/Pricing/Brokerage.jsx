@@ -1,6 +1,6 @@
 const Brokerage = () => {
   return (
-    <div className="container">
+    <div className="container border-top pt-5 pb-5">
       <div className="d-flex justify-content-around">
         <a className="">Brokerage calculator</a>
         <a className="">List of charges</a>
