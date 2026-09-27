@@ -4,7 +4,7 @@ import { createContext } from "react";
 // import BuyActionWindow from "./BuyActionWindow";
 
 const GeneralContext = createContext({
-  openBuyWindow: (uid) => {},
+  openBuyWindow: () => {},
   closeBuyWindow: () => {},
 });
 
